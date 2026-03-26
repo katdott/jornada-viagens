@@ -7,3 +7,12 @@ relativo ao tamanho do elemento pai. usado para esclar o tamanho da fonte dentro
 [rem]
 relativo ao tamanha do root (HTML). usado para padronizar tamanhos de fontes e espaçamentos. (troca o tamanho da fonte) 
 Valor em PX = Valor em REM x Tamanho da Fonte da Raiz
+
+[comandos]
+
+git stash
+git stash apply
+
+git checkout main
+git checkout -b feat/x
+
