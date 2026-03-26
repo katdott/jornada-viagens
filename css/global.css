@@ -23,6 +23,7 @@
   --menu-text-weight: 500;
 
 
+
 }
 
 body,
@@ -49,4 +50,8 @@ h1 {
 
 header {
   background-color: black;
+}
+
+body {
+  font-family: "Montserrat";
 }
