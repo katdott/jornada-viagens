@@ -15,11 +15,11 @@ header {
 
 }
 
-.logo-mobile {
+.img-mobile {
   display: block;
 }
 
-.logo-desktop {
+.img-desktop {
   display: none;
 }
 
@@ -69,6 +69,10 @@ input[type="checkbox"]:checked~nav {
     width: 467px;
   }
 
+  .img-desktop {
+    display: none;
+  }
+
   .navigation-menu label {
     display: none;
   }
@@ -103,6 +107,8 @@ input[type="checkbox"]:checked~nav {
 
   .img-desktop {
     display: block;
+    width: 260px;
+    height: 64px;
   }
 
   .img-mobile {
@@ -120,4 +126,9 @@ input[type="checkbox"]:checked~nav {
     padding: 38px 160px;
   }
 
+  .img-desktop {
+    display: block;
+    width: 260px;
+    height: 64px;
+  }
 }
