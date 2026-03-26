@@ -4,16 +4,14 @@
   --background-secondary-color: #F5F5F5;
   --background-tertiary-color: #000000;
 
-  --butoon-primary-color: ##8F0101;
-  --button-secondary-color: ##B81515;
+  --button-primary-color: #8F0101;
+  --button-secondary-color: #B81515;
 
-  --text-primary-color: ##222222;
+  --text-primary-color: #222222;
   --text-secondary-color: #FFFFFF;
 }
 
-
-
-* {
+body, img, h1, p, fieldset, label, legend, input, button, select, textarea {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
