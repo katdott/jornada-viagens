@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative;
 }
 
 .logo {
@@ -16,12 +17,36 @@ header {
 
 nav {
   display: none;
+
 }
 
 .navigation-menu {
   margin-top: 24px;
 }
 
+
+
 input[type="checkbox"]:checked~nav {
   display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+  top: calc(100% - 1px);
+  /* corrige a linha branca entre o header e o menu */
+}
+
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+
+}
+
+.list-links li {
+  margin: 16px 0 16px;
+}
+
+.list-links {
+  list-style: none;
 }
