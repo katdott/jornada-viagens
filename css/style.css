@@ -7,10 +7,10 @@
 
 
 :root {
-  
+
   --primary-color: #8F0101;
   --secondary-color: #B81515;
-  
+
   --background-primary-color: #FFFFFF;
   --background-secondary-color: #F5F5F5;
   --background-tertiary-color: #000000;
@@ -44,5 +44,9 @@ textarea {
 h1 {
   font-family: "Montserrat", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: var(--title-weight);
-  font-size: 32px 
+  font-size: 32px
+}
+
+header {
+  background-color: black;
 }
